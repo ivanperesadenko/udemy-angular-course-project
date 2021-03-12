@@ -1,0 +1,7 @@
+<a class="list-group-item list-group-item-action d-flex mb-2" (click)="selectRecipe()">
+  <div class="w-100">
+    <h4 class="h4">{{recipe.name}}</h4>
+    <p class="list-group-item-text">{{recipe.desc}}</p>
+  </div>
+    <img class="rounded align-self-center" style="max-width: 20%; height: 100%" [src]="recipe.imagePath" alt="img">
+</a>
